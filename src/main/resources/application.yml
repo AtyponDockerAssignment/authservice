@@ -1,12 +1,10 @@
 spring:
-#    autoconfigure:
-#        exclude:
-#        - org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        password: Mythi@2024
-        url: jdbc:mysql://localhost:3306/authservice_db
-        username: root
+        url: jdbc:mysql://db:3306/authservice_db
+        username: myuser
+        password: mypassword
+
     jpa:
         hibernate:
             ddl-auto: create-drop
