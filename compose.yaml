@@ -1,0 +1,8 @@
+services:
+  mysql:
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_DATABASE=authservice_db'
+      - 'MYSQL_ROOT_PASSWORD=Mythi@2024'
+    ports:
+      - '3306'
