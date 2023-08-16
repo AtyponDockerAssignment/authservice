@@ -4,5 +4,7 @@ services:
     environment:
       - 'MYSQL_DATABASE=authservice_db'
       - 'MYSQL_ROOT_PASSWORD=Mythi@2024'
+      - 'MYSQL_USER: myuser'
+      - 'MYSQL_PASSWORD: mypassword'
     ports:
-      - '3306'
+      - '3306:3306'
